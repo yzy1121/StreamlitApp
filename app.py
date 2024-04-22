@@ -2,7 +2,7 @@ from transformers import pipeline
 import streamlit as st
 
 
-summarizer = pipeline(task="summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline(task="summarization", model="Falconsai/text_summarization")
 
 print("Pipeline device:", summarizer.device)
 
